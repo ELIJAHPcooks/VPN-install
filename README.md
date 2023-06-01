@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/iUHgW7D.jpg" alt="Traffic Examination"/>
 </p>
 
-<h1>Installing VPNs On An Azure Virtual Machine</h1>
+<h1>Installing A VPN On An Azure Virtual Machine</h1>
 In this tutorial, we will install proton vpn on our Azure virtual machine and check it's IP address pre and post installation. <br />
 
 <h2>Environments and Technologies Used</h2>
@@ -27,25 +27,49 @@ In this tutorial, we will install proton vpn on our Azure virtual machine and ch
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/eNdY7X9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The first thing we must do when downloading a VPN on a VM is to create a VM. BY using my Microsoft Azure subscription I created a VM that uses a differnt loctaion than my current desktop. Then we must remote desktop into the VM. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/B5KkCOi.png" height="55%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After using remote desktop to connect to the VM I checked the VMs IP address using whatismyipaddress.com to make sure the location I choose in the creation of the VM matched the IP address appearing in the websites report. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/kVjB1xG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+  <p>
+Now that I've checked the VMs IP address we can now download Proton VPN. First create an account then procced to the free version of the Proton VPN download. 
 </p>
 <br />
+
+<p>
+  <img src="https://i.imgur.com/qdC4Ek0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  
+<img src="https://i.imgur.com/WmQhTWa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+After downloading the application and either pressing quick connect or connecting to a specific country/region the connection to the VM might drop due to the VM and VPNs internet connection classhing. Now that you have connected to the region of your choosing you can go back to the website whatismyipaddress.com to check your new IP address. 
+</p>
+<br />
+
+
+<p>
+  <img src="https://i.imgur.com/HnsAzKU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  
+<img src="https://i.imgur.com/RwdhJKr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
