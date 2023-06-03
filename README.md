@@ -73,3 +73,7 @@ After downloading the application and either pressing quick connect or connectin
 <img src="https://i.imgur.com/RwdhJKr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
+<p>
+That is how you install a VPN on to Microsofts Azure VM. Once you finish make sure to delete all the resources used in the creation of the VM so as not to accrue any charges simply from the existence of the VM.  
+</p>
+<br />
