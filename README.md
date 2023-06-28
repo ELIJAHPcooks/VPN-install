@@ -12,7 +12,6 @@ In this tutorial, we will install proton vpn on our Azure virtual machine and ch
 - whatsmyipaddress.com
 - ProtonVPN
 
-
 <h2>Operating System Used </h2>
 - Windows 10 (22H2)
 
