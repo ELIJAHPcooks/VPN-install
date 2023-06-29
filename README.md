@@ -29,7 +29,7 @@ In this tutorial, we will install proton vpn on our Azure virtual machine and ch
 <img src="https://i.imgur.com/eNdY7X9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The first thing we must do when downloading a VPN on a VM is to create a VM. BY using my Microsoft Azure subscription I created a VM that uses a differnt loctaion than my current desktop. Then we must remote desktop into the VM. 
+The first thing we must do when downloading a VPN on a VM is to create a VM. BY using my Microsoft Azure subscription I created a VM that uses a differnt loctaion than my current desktops. Then we must remote desktop into the VM. 
 </p>
 <br />
 
